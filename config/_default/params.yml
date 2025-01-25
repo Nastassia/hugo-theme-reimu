@@ -26,11 +26,11 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: D-Sketon
+author: Nastassia
 description: "少女祈祷中..."
 subtitle: "少女祈祷中..."
 
-banner: "images/banner.webp"
+banner: "images/AshaBoredAtDesk.png"
 # You can also write it in the form of the following url
 # banner: "https://example.com"
 
@@ -38,11 +38,11 @@ banner: "images/banner.webp"
 banner_srcset:
   enable: false
   srcset:
-    - src: "images/banner-600w.webp"
+    - src: "images/AshaBoredAtDesk.png"
       media: "(max-width: 479px)"
-    - src: "images/banner-800w.webp"
+    - src: "images/AshaBoredAtDesk.png"
       media: "(max-width: 799px)"
-    - src: "images/banner.webp"
+    - src: "images/AshaBoredAtDesk.png"
       media: "(min-width: 800px)"
 
 avatar: "avatar.webp"
@@ -151,7 +151,7 @@ local_font:
     - monospace
 
 dark_mode:
-  enable: false # set to true to make your website default to dark mode
+  enable: true # set to true to make your website default to dark mode
 
 ########################################
 # Analytics
